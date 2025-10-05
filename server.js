@@ -8,7 +8,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
 
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.HOST || "0.0.0.0";
 const PORT = process.env.PORT || 3000;
 
 // Create a single PTY instance (one shared shell).
